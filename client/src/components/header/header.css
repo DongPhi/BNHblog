@@ -1,0 +1,76 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header a{
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+header .search a{
+    padding-right: 10px;
+    font-size: 17px;
+}
+header .search input{
+    border: none;
+    font-size: 13px;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    width: 200px;
+}
+header .search input:focus{
+    outline: none;
+}
+header ul li{
+    display: inline-block;
+    
+    padding: 0 5px;
+}
+header ul li a{
+    opacity: 0.7;
+}
+header ul li a:hover{
+    opacity: 1;
+}
+header ul li img{
+    width: 30px;
+    height: 30px;
+    transform: translateY(10px);
+    border-radius: 50px;
+}
+
+/* ----dropdown----- */
+.drop-nav{
+    position: relative;
+    padding: 10px 0;
+}
+.drop-nav a{
+    text-transform: capitalize;
+}
+.drop-nav .dropdown{
+    position: absolute;
+    background: #fce4de;
+    width: 100%;
+    top: 53px;
+    display: none;
+}
+.drop-nav:hover .dropdown{
+    display: block;
+}
+.drop-nav .dropdown a{
+    width: 78%;
+    padding: 8px 14px;
+    float: left;
+}
+.drop-nav .dropdown a:hover{
+    background: #f5cabf;
+}
+
+header ul{
+    transform: translateY(-5px);
+}
